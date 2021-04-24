@@ -4,13 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Google Search</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
-    <nav></nav>
+    <nav>
+        <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+          </ul>
+          <div class="right">
+            <ul>
+                <li><a href="#">Gmail</a></li>
+                <li><a href="#">Images</a></li>
+                <li><a href="#"><span class="material-icons" id="apps-icon">apps</span></a></li>
+                <li><a href="#" id="signing">Sign In</a></li>
+              </ul>
+          </div>
+    </nav>
     <main>
-        <input type="text" name="search" id="search">
-        <button>Search</button>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" class="center" id="logo">
+        <div id="searchbar">
+            <span class="material-icons" id="magnifyingglass">search</span>
+            <div id="searchinput">
+                <input type="text" name="search" id="search" placeholder="test">
+            </div>
+            <span class="material-icons">mic</span>
+        </div>
+        <div id="buttons">
+            <button>Google Search</button>
+            <button>I'm Feeling Lucky</button>
+        </div>
     </main>
-    <footer></footer>
+    <footer>
+        <ul>
+            <li><a href="#">Advertising</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">How Search Works</a></li>
+          </ul>
+          <div class="right">
+            <ul>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Settings</a></li>
+
+              </ul>
+          </div>
+
+    </footer>
 </body>
 </html>
